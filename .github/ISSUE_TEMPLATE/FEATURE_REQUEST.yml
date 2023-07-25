@@ -46,10 +46,10 @@ body:
     required: true
 
 - type: checkboxes
-attributes:
-  label: Have you given as much information as possible about the feature?
-  description: If not, then please provide more information about the feature to be implemented.
-  options:
-  - label: Yes, I have provided as much as  information for the feature
-    required: true
+  attributes:
+    label: Have you given as much information as possible about the feature?
+    description: If not, then please provide more information about the feature to be implemented.
+    options:
+    - label: Yes, I have provided as much as  information for the feature
+      required: true
   
