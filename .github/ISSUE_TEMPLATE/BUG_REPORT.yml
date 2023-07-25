@@ -71,5 +71,8 @@ body:
 
 - type: checkboxes
   attributes:
-    - label: I have provided as much detail as possible
-      required: true
+  label: Have you provided all details?
+  description: Please ensure that you provide us all details relating to the bug.
+  options:
+  - label: I have provided as much detail as possible
+    required: true
