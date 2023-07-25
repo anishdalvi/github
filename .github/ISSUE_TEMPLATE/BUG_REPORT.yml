@@ -62,6 +62,12 @@ body:
     label: "OS"
     description: In which OS, you found the bug?
     multiple: true
+    options:
+      - Windows
+      - Linux
+      - Mac
+  validations:
+    required: false
 
     - type: checkboxes
   attributes:
@@ -70,9 +76,3 @@ body:
     options:
     - label: I have searched the existing issues
       required: true
-    options:
-      - Windows
-      - Linux
-      - Mac
-  validations:
-    required: false
