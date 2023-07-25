@@ -6,11 +6,7 @@ body:
 - type: markdown
   attributes:
     value: |
-      Thanks for taking the time to fill out this bug.
-
-- type: markdown
-  attributes:
-    value: "### Please ensure that all required (*) fields are filled out in order to submit the issue."
+      ###Thanks for taking the time to fill out this bug.
     
 - type: checkboxes
   attributes:
@@ -19,7 +15,11 @@ body:
     options:
     - label: I have searched the existing issues
       required: true
-      
+
+- type: markdown
+  attributes:
+    value: "###### Please ensure that all required (*) fields are filled out in order to submit the issue."
+    
 - type: textarea
   id: description
   attributes:
