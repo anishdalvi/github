@@ -1,5 +1,5 @@
 name: 🐞 Bug
-description: File a bug/issue
+description: File a bug
 title: "[BUG] <title>"
 labels: [Bug]
 body:
@@ -26,10 +26,10 @@ body:
     label: Steps To Reproduce
     description: Steps to reproduce the behavior.
     placeholder: |
-      1. Go to '...'
-      2. Click on '....'
-      3. Scroll down to '....'
-      4. See error
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
   validations:
     required: false
     
@@ -60,7 +60,7 @@ body:
   id: os
   attributes:
     label: "OS"
-    description: What is the impacted environment ?
+    description: In which OS, you found the bug?
     multiple: true
     options:
       - Windows
