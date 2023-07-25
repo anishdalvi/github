@@ -17,7 +17,7 @@ body:
   attributes:
     label: "Description"
     description: Please enter an explicit description of your bug
-    placeholder: Short and explicit description of your incident...
+    placeholder: Short and explicit description of the bug...
   validations:
     required: true     
     
