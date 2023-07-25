@@ -70,9 +70,9 @@ body:
     required: false
 
 - type: checkboxes
-attributes:
-  label: I have read the guidelines for creating an issue?
-  description: Please search to see if an issue already exists for the bug you encountered.
-  options:
-  - label: I have provided as much detail as possible
-    required: true
+  attributes:
+    label: I have read the guidelines for creating an issue?
+    description: Please search to see if an issue already exists for the bug you encountered.
+    options:
+    - label: I have provided as much detail as possible
+      required: true
