@@ -1,5 +1,5 @@
 name: 🐞 Bug
-description: File a bug
+description: Report a bug
 title: "[BUG] <title>"
 labels: [Bug]
 body:
@@ -37,8 +37,8 @@ body:
   id: screenshot
   attributes:
     label: "Screenshots"
-    description: If applicable, add screenshots to help explain your problem.
-    value: |
+    description: If applicable, add screenshots to show the bug.
+    placeholder: |
       ![DESCRIPTION](LINK.png)
     render: bash
   validations:
