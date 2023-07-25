@@ -51,14 +51,14 @@ body:
       - Microsoft Edge
       - Opera
 - type: dropdown
-    id: os
-    attributes:
-      label: "OS"
-      description: What is the impacted environment ?
-      multiple: true
-      options:
-        - Windows
-        - Linux
-        - Mac
-    validations:
-      required: false
+  id: os
+  attributes:
+    label: "OS"
+    description: What is the impacted environment ?
+    multiple: true
+    options:
+      - Windows
+      - Linux
+      - Mac
+  validations:
+    required: false
