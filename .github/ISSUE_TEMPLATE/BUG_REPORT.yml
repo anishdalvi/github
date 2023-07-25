@@ -5,7 +5,7 @@ labels: [Bug]
 body:
 - type: markdown
   attributes:
-    value: ###|
+    value: |
       Thanks for taking the time to fill out this bug.
     
 - type: checkboxes
@@ -18,7 +18,7 @@ body:
 
 - type: markdown
   attributes:
-    value: "###### Please ensure that all required (*) fields are filled out in order to submit the issue."
+    value: "#### Please ensure that all required (*) fields are filled out in order to submit the issue."
     
 - type: textarea
   id: description
