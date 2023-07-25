@@ -7,16 +7,16 @@ labels: [
 body:
 
   - type: checkboxes
-  attributes:
-    label: Is there an existing issue for this?
-    description: Please search to see if an issue already exists for the bug you encountered.
-    options:
-    - label: I have searched the existing issues
-      required: true
+    attributes:
+      label: Is there an existing issue for this?
+      description: Please search to see if an issue already exists for the bug you encountered.
+      options:
+      - label: I have searched the existing issues
+        required: true
       
   - type: markdown
-  attributes:
-    value: "#### Please ensure that all required (*) fields are filled out in order to submit the issue."
+    attributes:
+      value: "#### Please ensure that all required (*) fields are filled out in order to submit the issue."
     
   - type: textarea
     id: reference_issues
