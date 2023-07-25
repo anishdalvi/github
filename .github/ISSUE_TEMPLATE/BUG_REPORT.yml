@@ -3,7 +3,15 @@ description: Report a bug
 title: "[BUG] <title>"
 labels: [Bug]
 body:
+- type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to fill out this bug.
 
+- type: markdown
+  attributes:
+    value: "### Please ensure that all required (*) fields are filled out in order to submit the issue."
+    
 - type: checkboxes
   attributes:
     label: Is there an existing issue for this?
@@ -74,5 +82,5 @@ body:
     label: Have you provided all details?
     description: Please ensure that you provide us all details relating to the bug.
     options:
-    - label: I have provided as much detail as possible
+    - label: Yes, I have provided as much detail as possible
       required: true
