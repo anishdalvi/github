@@ -5,8 +5,7 @@ labels: [Bug]
 body:
 - type: markdown
   attributes:
-    value: |
-      Thanks for taking the time to fill out this bug.
+    value: "###*Thanks for taking the time to fill out this bug.*"
     
 - type: checkboxes
   attributes:
