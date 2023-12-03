@@ -45,9 +45,8 @@ body:
   attributes:
     label: "Screenshots"
     description: If applicable, add screenshots to show the bug.
-    value: |
+    placeholder: |
       ![DESCRIPTION](LINK.png)
-    render: bash
   validations:
     required: false
     
